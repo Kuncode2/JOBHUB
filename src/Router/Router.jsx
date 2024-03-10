@@ -4,11 +4,10 @@ import Home from "../Pages/Home";
 import About from "../Pages/About";
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/",     // this is the root path
         element: <App />,
         children: [
             { path: "/", element: <Home />},
-            { path: "/about", element: <About />},
         ],
     },
 ]);
