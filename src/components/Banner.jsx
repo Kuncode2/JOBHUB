@@ -1,6 +1,6 @@
-import React from 'react'
-import { IoSearchOutline } from "react-icons/io5";
+import React from 'react';
 import { FiMapPin } from "react-icons/fi";
+import { IoSearchOutline } from "react-icons/io5";
 
 const Banner = ({query,handleInputChange}) => {       // destructuring  passing state as a prop
   return (
